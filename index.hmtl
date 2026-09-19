@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,user-scalable=yes,viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>배너</title>
+  <style>
+    /* 아이프레임 최적화: 불필요한 기본 스크롤바와 여백 제거 */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background-color: #0a1628; overflow-x: hidden; }
+
+    /* 꽉 차는 반응형 구조 및 최대 가로폭 보장 */
+    .main-wrapper {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1200px;
+      padding: 6px 0;
+      display: block;
+    }
+
+    /* 배너가 깨지거나 잘리지 않도록 유연성 확보 */
+    .banner-box {
+      margin-bottom: 6px;
+      width: 100%;
+      display: block;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      overflow: hidden;
+    }
+
+    .banner-box:last-child { margin-bottom: 0; }
+
+    .banner-box a {
+      display: block;
+      width: 100%;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .banner-box picture {
+      display: block;
+      width: 100%;
+    }
+
+    /* 이미지가 아이프레임 크기에 맞춰 유연하게 꽉 차도록 세팅 */
+    .banner-box img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      border: 0;
+    }
+
+    img { aspect-ratio: 1200 / 350; background-color: #07101c; }
+  </style>
+</head>
+
+<body>
+  <div class="main-wrapper" id="bannerContainer">
+
+    <!-- 마닐라 -->
+    <article class="banner-box random-item">
+      <a href="https://ma-0002.com/@grjj" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_manila_1200x350.png" width="1200" height="350" alt="마닐라" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 벳플레이 -->
+    <article class="banner-box random-item">
+      <a href="https://betplaygaming.com/?agentCode=3361" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_betplay_1200x350.png" width="1200" height="350" alt="벳플레이_1200x350" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 제로백 -->
+    <article class="banner-box random-item">
+      <a href="https://zrb753.com" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_zeroback_1200x350.png" width="1200" height="350" alt="제로백" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 힐튼 (2026-08-26 온리유 -> 힐튼 리뉴얼 수정: 도메인 https://only593.com/?code=365, 이미지 변경) -->
+    <article class="banner-box random-item">
+      <a href="https://only593.com/?code=365" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_hilton_1200x350.png" width="1200" height="350" alt="힐튼" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 베라에이전시 -->
+    <article class="banner-box fixed-last">
+      <a href="https://t.me/verag24h" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2025/10/베라에이전시.png" width="1200" height="350" alt="베라에이전시" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 오케이카지노 (2026-08-26 수정: https://ok-9999.com/?code=100 -> https://ok-7575.com/?code=100) -->
+    <article class="banner-box fixed-item" data-pos="2">
+      <a href="https://ok-7575.com/?code=100" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_ok_1200x350.png" width="1200" height="350" alt="오케이" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 스피드-1 -->
+    <article class="banner-box fixed-item" data-pos="4">
+      <a href="https://spd-8282.com/?code=100" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_speed_1200x350.png" width="1200" height="350" alt="VS" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 보스 (링크 수정) -->
+    <article class="banner-box random-item">
+      <a href="https://bsbs-7141.com/?code=vera" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_boss_1200x350.png" width="1200" height="350" alt="보스" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 소닉 (링크 수정) -->
+    <article class="banner-box random-item">
+      <a href="http://snc-2997.com/a/vera" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_sonic_1200x350.png" width="1200" height="350" alt="소닉" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 볼트 -->
+    <article class="banner-box random-item">
+      <a href="https://bolt-9828.com/?code=vera" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_bolt_1200x350.png" width="1200" height="350" alt="볼트" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 업 -->
+    <article class="banner-box random-item">
+      <a href="https://upbt-105.com/?code=vera" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_upbet_1200x350.png" width="1200" height="350" alt="업카지노" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 텐 (2026-08-24 링크 수정: http://10ca-1346.com/a/vera -> https://1oca-3333.com/a/vera, 2026-09-01 이미지 수정) -->
+    <article class="banner-box random-item">
+      <a href="https://1oca-3333.com/a/vera" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_ten_1200x350.png" width="1200" height="350" alt="텐카지노" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 띵벳 -->
+    <article class="banner-box random-item">
+      <a href="https://%EC%95%88%EC%A0%84%EA%B5%AC%EC%97%AD.com/?agentCode=4749" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_tting_final_1200x350.png" width="1200" height="350" alt="띵벳" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 렛츠벳 -->
+    <article class="banner-box random-item">
+      <a href="https://lt-99.com/?affiliate=892" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_letsbet_1200x350.png" width="1200" height="350" alt="렛츠벳" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 앙벳 (2026-08-31 zxx -> 앙벳 리뉴얼: 도메인 및 이미지 교체) -->
+    <article class="banner-box random-item">
+      <a href="https://angtmdmwiy3rhgjdhsdz4vh7rlea.com/?agentCode=5840" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_angbet_1200x350.png" width="1200" height="350" alt="앙벳" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 파티 -->
+    <article class="banner-box random-item">
+      <a href="https://www.pt-7854.com/" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_party_1200x350.png" width="1200" height="350" alt="파티" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 도토리 -->
+    <article class="banner-box random-item">
+      <a href="https://www.dtr-9685.com/" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_dotori_1200x350.png" width="1200" height="350" alt="도토리" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 팝콘 (2026-08-25 노출 제외 주석처리)
+    <article class="banner-box random-item">
+      <a href="https://pop-1188.com/" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/07/팝콘_1200x350-1.png" width="1200" height="350" alt="여우별" loading="lazy">
+        </picture>
+      </a>
+    </article>
+    -->
+
+    <!-- 아지트 -->
+    <article class="banner-box random-item">
+      <a href="https://www.ag-3830.com/" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_agit_1200x350.png" width="1200" height="350" alt="아지트" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 골드울프 -->
+    <article class="banner-box random-item">
+      <a href="https://goldwolf.casino/ko?referral-code=vera" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_goldwolf_1200x350.png" width="1200" height="350" alt="골드울프" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 베팅은여기요 (2026-08-31 룰라벳 -> 베팅은여기요 리뉴얼: 도메인 및 이미지 교체) -->
+    <article class="banner-box random-item">
+      <a href="https://ygsqnqotwmudafbdgdoggp15wje.com/?agentCode=1611" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_betting_1200x350.png" width="1200" height="350" alt="베팅은여기요" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 짱구 -->
+    <article class="banner-box random-item">
+      <a href="https://zza-189.com/?code=7997" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_jjanggu_7997_1200x350.png" width="1200" height="350" alt="짱구 7997" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 올라프 -->
+    <article class="banner-box random-item">
+      <a href="https://ol-1122.com/?code=5558" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_olaf_5558_1200x350.png" width="1200" height="350" alt="지니 5558" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 마리오 -->
+    <article class="banner-box random-item">
+      <a href="https://mama-0102.com/?code=7766" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_mario_7766_1200x350.png" width="1200" height="350" alt="루피 7766" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 투데더 (2026-08-24 수정: https://tgtg-0003.com/?code=1587 -> https://tgtg-0004.com/?code=1587) -->
+    <article class="banner-box random-item">
+      <a href="https://tgtg-0004.com/?code=1587" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_vera_together_1587_1200x350.png" width="1200" height="350" alt="투게더 1587" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+    <!-- 시바벳 (2026-09-04 신규 등록: https://sbb-001.com/?code=8091) -->
+    <article class="banner-box random-item">
+      <a href="https://sbb-001.com/?code=8091" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <img data-src="https://zzzxxxcspw2.shop/wp-content/uploads/2026/09/20260908_shiba_1200x350.png" width="1200" height="350" alt="시바벳" loading="lazy">
+        </picture>
+      </a>
+    </article>
+
+  </div>
+
+  <script>
+    (function () {
+      var MAX = 3;
+      var EAGER = 2;
+      function notifyParent() {
+        try {
+          if (window.parent && window.parent !== window) {
+            var h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+            window.parent.postMessage({ type: "banner-iframe-resize", height: h }, "*");
+          }
+        } catch (e) {}
+      }
+      function loadBanners() {
+        var imgs = Array.prototype.slice.call(document.querySelectorAll("img[data-src]"));
+        if (!imgs.length) return;
+        var queue = [];
+        var inflight = 0;
+        function pump() {
+          while (inflight < MAX && queue.length) {
+            var img = queue.shift();
+            var url = img.getAttribute("data-src");
+            if (!url || img.getAttribute("src")) continue;
+            inflight++;
+            var done = function () { inflight--; pump(); notifyParent(); };
+            img.addEventListener("load", done, { once: true });
+            img.addEventListener("error", done, { once: true });
+            var pic = img.parentElement;
+            if (pic) {
+              var source = pic.querySelector("source[data-srcset]");
+              if (source) source.setAttribute("srcset", source.getAttribute("data-srcset"));
+            }
+            img.setAttribute("src", url);
+          }
+        }
+        function enqueue(img) {
+          if (img.getAttribute("data-queued") === "1") return;
+          img.setAttribute("data-queued", "1");
+          queue.push(img);
+          pump();
+        }
+        imgs.forEach(function (img, i) {
+          img.setAttribute("width", "1200");
+          img.setAttribute("height", "350");
+          if (i < EAGER) enqueue(img);
+        });
+        if ("IntersectionObserver" in window) {
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              io.unobserve(entry.target);
+              enqueue(entry.target);
+            });
+          }, { root: null, rootMargin: "400px 0px" });
+          imgs.forEach(function (img, i) { if (i >= EAGER) io.observe(img); });
+        } else {
+          imgs.forEach(function (img, i) { if (i >= EAGER) enqueue(img); });
+        }
+        notifyParent();
+      }
+      window.__loadBanners = loadBanners;
+    })();
+    </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("bannerContainer");
+      if (!container) return;
+
+      const fixedItems = Array.from(container.querySelectorAll(".fixed-item"));
+      const lastItem = container.querySelector(".fixed-last");
+      const randomItems = Array.from(container.querySelectorAll(".random-item"));
+
+      // 1. Fisher-Yates 셔플
+      const shuffle = (items) => {
+        for (let i = items.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [items[i], items[j]] = [items[j], items[i]];
+        }
+      };
+
+      shuffle(randomItems);
+
+      // 2. 랜덤 아이템 복사본 생성
+      const newOrder = [...randomItems];
+
+      // 3. 고정 위치 아이템을 지정된 순서대로 정확한 인덱스에 삽입 (누락 방지)
+      fixedItems.sort((a, b) => {
+        return parseInt(a.getAttribute("data-pos"), 10) - parseInt(b.getAttribute("data-pos"), 10);
+      });
+
+      fixedItems.forEach(item => {
+        const pos = parseInt(item.getAttribute("data-pos"), 10);
+        if (pos) {
+          newOrder.splice(pos - 1, 0, item);
+        }
+      });
+
+      // 4. 마지막 고정 아이템 추가
+      if (lastItem) {
+        newOrder.push(lastItem);
+      }
+
+      // 5. DOM 단 한 번의 조작으로 재삽입
+      const fragment = document.createDocumentFragment();
+      newOrder.forEach(item => fragment.appendChild(item));
+
+      container.textContent = "";
+      container.appendChild(fragment);
+      if (window.__loadBanners) window.__loadBanners();
+    });
+  </script>
+</body>
+</html>
